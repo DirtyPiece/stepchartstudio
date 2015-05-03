@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 /// Represents a song which contains stepchart notes and timings
@@ -7,6 +8,23 @@ using System.Collections;
 /// </summary>
 public class Song : MonoBehaviour
 {
+    /// <summary>
+    /// Initializes a new instance of the <see cref="Song"/> class.
+    /// </summary>
+    public Song()
+    {
+        this.Steps = new List<Steps>();
+    }
+
+    /// <summary>
+    /// Gets or sets the list of steps that identify each stepchart for this song.
+    /// </summary>
+    public List<Steps> Steps
+    {
+        get;
+        set;
+    }
+
     /// <summary>
     /// Gets or sets the title of the song.
     /// </summary>
@@ -143,6 +161,15 @@ public class Song : MonoBehaviour
     }
 
     /// <summary>
+    /// Gets or sets the offset of the last beat in seconds.
+    /// </summary>
+    public float LastBeatOffsetInSeconds
+    {
+        get;
+        set;
+    }
+
+    /// <summary>
     /// Gets or sets the song file name.
     /// </summary>
     public string FileName
@@ -200,6 +227,15 @@ public class Song : MonoBehaviour
     /// Gets or sets the maximum beats per munute value to show on the song selection wheel.
     /// </summary>
     public float MaximumBeatsPerMinute
+    {
+        get;
+        set;
+    }
+
+    /// <summary>
+    /// Gets or sets the type of BPM display that is used.
+    /// </summary>
+    public SongDisplayBpmType BeatsPerMinuteDisplayType
     {
         get;
         set;

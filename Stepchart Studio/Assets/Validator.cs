@@ -13,7 +13,7 @@ public static class Validator {
     /// <param name="parameterName">The name of the parameter being validated.</param>
     public static void IsNotNullOrWhiteSpace(string value, string parameterName)
     {
-        if (string.IsNullOrEmpty(value) || value.Trim().Length == 0)
+        if (StringHelper.IsNullOrWhiteSpace(value))
         {
             throw new ArgumentNullException(parameterName);
         }
