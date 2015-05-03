@@ -47,13 +47,26 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\AnimateScript.cs" />
+     <Compile Include="Assets\BeatHelper.cs" />
      <Compile Include="Assets\CameraMovementScript.cs" />
+     <Compile Include="Assets\Constants.cs" />
+     <Compile Include="Assets\FileScanner.cs" />
+     <Compile Include="Assets\LoadPreviewSceneScript.cs" />
+     <Compile Include="Assets\Logger.cs" />
+     <Compile Include="Assets\Song.cs" />
+     <Compile Include="Assets\SongBpmSegment.cs" />
+     <Compile Include="Assets\SongFileLoader.cs" />
+     <Compile Include="Assets\SongStopSegment.cs" />
+     <Compile Include="Assets\SongTimingInfo.cs" />
+     <Compile Include="Assets\SongVisibilityType.cs" />
+     <Compile Include="Assets\Steps.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Validator.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\UnityChan\license.txt" />

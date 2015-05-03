@@ -1,8 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CameraMovementScript.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\StepchartFileScanner.cs">
     <Files>
-      <File FileName="Assets\CameraMovementScript.cs" Line="16" Column="151" />
+      <File FileName="Assets\StepchartFileLoader.cs" Line="5" Column="3" />
+      <File FileName="Stepchart Studio.sln" Line="1" Column="1" />
+      <File FileName="Assets\AnimateScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\CameraMovementScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\LoadPreviewSceneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\StepchartFileScanner.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
